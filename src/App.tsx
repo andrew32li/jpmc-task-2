@@ -8,7 +8,7 @@ import './App.css';
  */
 interface IState {
   data: ServerRespond[],
-  showGraph: boolean,  //show graph
+  showGraph: boolean  //show graph
 }
 
 /**
@@ -23,7 +23,7 @@ class App extends Component<{}, IState> {
       // data saves the server responds.
       // We use this state to parse data down to the child element (Graph) as element property
       data: [],
-      showGraph: false, //want the graph to initially stay hidden and only show when user clicks 'Start Streaming Data'
+      showGraph: false //want the graph to initially stay hidden and only show when user clicks 'Start Streaming Data'
     };
   }
 
